@@ -52,7 +52,7 @@ const App = () => {
         </tr>
     </thead>
     <tbody>`;
-    let tableHTML_end = `</tbody></table>`;
+    let tableHTML_end = '</tbody></table>';
 
     const im_table_start = `<table cell-padding="5" style="width: 100%">
     <thead>
@@ -488,7 +488,7 @@ const App = () => {
           border-bottom: 1px solid #dddddd;
         }
         .claim_rowStyle1 {
-          display: 'flex;
+          display: flex;
           flex-direction: 'row;
           justify-content: 'space-between;
           margin-top: 5,
@@ -562,7 +562,7 @@ const App = () => {
         .claim_myPanel {
           text-align: left;
           padding: 0;
-          margin: 0 0 3px 0';
+          margin: 0 0 3px 0;
           box-shadow: none;
           background-color: transparent;
         }
